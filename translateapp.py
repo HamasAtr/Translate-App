@@ -26,8 +26,8 @@ except:
 payload = f"source_language={FirstLang}&target_language={SecondLang}&text={inp}%3F"
 headers = {
 	"content-type": "application/x-www-form-urlencoded",
-	"X-RapidAPI-Key": "d0542abc35msh5893c920dff09f4p129426jsnf9ab33404316",
-	"X-RapidAPI-Host": "text-translator2.p.rapidapi.com"
+	"X-RapidAPI-Key": "Your-Api-Key",
+	"X-RapidAPI-Host": "Your-Api-Key"
 }
 
 response = requests.request("POST", url, data=payload, headers=headers)
